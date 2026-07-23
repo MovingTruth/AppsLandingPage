@@ -1,0 +1,50 @@
+{
+  "sourceRevision": "2026-07-23",
+  "canonicalLocales": [
+    "en",
+    "fr",
+    "es",
+    "de",
+    "pt-BR",
+    "it",
+    "nl",
+    "hi",
+    "ar",
+    "zh-Hans",
+    "ja",
+    "ko",
+    "ru",
+    "th"
+  ],
+  "localeStatus": {
+    "en": "source",
+    "fr": "draft-complete",
+    "es": "pending",
+    "de": "pending",
+    "pt-BR": "pending",
+    "it": "pending",
+    "nl": "pending",
+    "hi": "pending",
+    "ar": "pending",
+    "zh-Hans": "pending",
+    "ja": "pending",
+    "ko": "pending",
+    "ru": "pending",
+    "th": "pending"
+  },
+  "review": {
+    "fr": {
+      "fluentReviewer": null,
+      "technicalPrivacyReview": null,
+      "approvedForPublication": false
+    }
+  },
+  "sites": [
+    "https://apps.movingtruth.com",
+    "https://inner-whisper.movingtruth.com",
+    "https://inner-thought.movingtruth.com",
+    "https://inner-sign.movingtruth.com",
+    "https://inner-course.movingtruth.com",
+    "https://inner-play.movingtruth.com"
+  ]
+}

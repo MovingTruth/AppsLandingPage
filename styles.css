@@ -121,6 +121,10 @@ img { max-width: 100%; }
 .truth-list { list-style: none; display: grid; gap: .75rem; margin-top: 2rem; }
 .truth-list li { color: var(--taupe); }
 .truth-list li::before { content: "✓"; color: var(--accent); font-weight: 800; margin-right: .7rem; }
+.commitment-list { max-width: 820px; gap: 1rem; text-align: left; }
+.commitment-list li { padding: 1rem 1.1rem; border: 1px solid var(--separator); border-radius: 14px; background: rgba(255,255,255,.018); line-height: 1.65; }
+.commitment-list li::before { margin-inline-end: .45rem; margin-right: 0; }
+.commitment-list strong { color: var(--cream); }
 .capability-lines { display: grid; grid-template-columns: 1fr 1fr; margin-top: 2.5rem; border-top: 1px solid var(--separator); }
 .capability-lines > div { display: flex; flex-direction: column; gap: .3rem; padding: 1.4rem 1rem 1.4rem 0; border-bottom: 1px solid var(--separator); }
 .capability-lines > div:nth-child(odd) { border-right: 1px solid var(--separator); }
