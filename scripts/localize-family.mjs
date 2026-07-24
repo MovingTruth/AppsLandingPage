@@ -111,7 +111,6 @@ function localeChrome(domain, page, activeLocale) {
   return `
 <!-- family-localization:start -->
 <nav class="family-language" aria-label="${activeLocale === "fr" ? "Langue" : "Language"}">
-  <span>${activeLocale === "fr" ? "Langue" : "Language"}</span>
   <a href="${enUrl}" lang="en" data-language-choice="en"${englishCurrent}>English</a>
   <a href="${frUrl}" lang="fr" data-language-choice="fr"${frenchCurrent}>Français</a>
 </nav>
@@ -121,8 +120,7 @@ function localeChrome(domain, page, activeLocale) {
 const localeStyles = `
 <!-- family-localization-style:start -->
 <style>
-  .family-language{position:fixed;z-index:1000;inset-block-start:.75rem;inset-inline-end:.75rem;display:flex;align-items:center;gap:.45rem;padding:.42rem .55rem;border:1px solid rgba(201,168,76,.32);border-radius:999px;background:rgba(13,13,13,.88);color:#e8e0d0;font:600 .75rem/1.2 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;backdrop-filter:blur(14px)}
-  .family-language span{color:#b6aa96}
+  .family-language{position:absolute;z-index:900;inset-block-start:4.75rem;inset-inline-end:1rem;display:flex;align-items:center;gap:.25rem;padding:.3rem;border:1px solid rgba(201,168,76,.24);border-radius:999px;background:rgba(13,13,13,.72);color:#e8e0d0;font:600 .75rem/1.2 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;backdrop-filter:blur(12px)}
   .family-language a{min-block-size:2rem;display:inline-flex;align-items:center;padding:0 .55rem;border-radius:999px;color:inherit;text-decoration:none}
   .family-language a:hover,.family-language a:focus-visible{background:rgba(201,168,76,.16);outline:2px solid transparent}
   .family-language a[aria-current="page"]{background:#c9a84c;color:#111}
@@ -131,7 +129,7 @@ const localeStyles = `
   .language-suggestion a,.language-suggestion button{min-block-size:2.35rem;display:inline-flex;align-items:center;padding:0 .8rem;border:1px solid rgba(201,168,76,.5);border-radius:999px;background:transparent;color:#e8e0d0;font:inherit;text-decoration:none;cursor:pointer}
   .language-suggestion a{background:#c9a84c;color:#111}
   .language-suggestion a:focus-visible,.language-suggestion button:focus-visible{outline:2px solid #f1d47a;outline-offset:2px}
-  @media (max-width:700px){.family-language{position:absolute;inset-block-start:.45rem;inset-inline-end:.45rem}.family-language span{position:absolute;inline-size:1px;block-size:1px;overflow:hidden;clip-path:inset(50%)}}
+  @media (max-width:700px){.family-language{inset-block-start:4.8rem;inset-inline-end:.75rem}}
 </style>
 <!-- family-localization-style:end -->`;
 
