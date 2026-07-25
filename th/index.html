@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0D0D0D">
+  <meta name="description" content="แอปตระกูล Inner จาก Moving Truth: พื้นที่สงบ เป็นส่วนตัว และทุกคนเข้าถึงได้ สำหรับการใคร่ครวญ ความสร้างสรรค์ มุมมอง การเล่นผ่านประสาทสัมผัส และการรู้จักตนเอง">
+  <meta property="og:title" content="Moving Truth Apps">
+  <meta property="og:description" content="สร้างมาเพื่อพื้นที่ภายใน">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://apps.movingtruth.com/th/">
+  <meta property="og:image" content="https://apps.movingtruth.com/assets/moving-truth-logo.png">
+  <meta name="twitter:card" content="summary">
+  <title>แอป Moving Truth — สร้างมาเพื่อพื้นที่ภายใน</title>
+  <link rel="icon" type="image/png" href="../assets/moving-truth-logo.png">
+  <link rel="apple-touch-icon" href="../assets/moving-truth-logo.png">
+  <link rel="stylesheet" href="../styles.css">
+  <script src="site.js" defer></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- family-localization-meta:start -->
+<link rel="canonical" href="https://apps.movingtruth.com/th/">
+<link rel="alternate" hreflang="en" href="https://apps.movingtruth.com/">
+<link rel="alternate" hreflang="fr" href="https://apps.movingtruth.com/fr/">
+<link rel="alternate" hreflang="es" href="https://apps.movingtruth.com/es/">
+<link rel="alternate" hreflang="de" href="https://apps.movingtruth.com/de/">
+<link rel="alternate" hreflang="pt-BR" href="https://apps.movingtruth.com/pt-BR/">
+<link rel="alternate" hreflang="it" href="https://apps.movingtruth.com/it/">
+<link rel="alternate" hreflang="nl" href="https://apps.movingtruth.com/nl/">
+<link rel="alternate" hreflang="hi" href="https://apps.movingtruth.com/hi/">
+<link rel="alternate" hreflang="ar" href="https://apps.movingtruth.com/ar/">
+<link rel="alternate" hreflang="zh-Hans" href="https://apps.movingtruth.com/zh-Hans/">
+<link rel="alternate" hreflang="ja" href="https://apps.movingtruth.com/ja/">
+<link rel="alternate" hreflang="ko" href="https://apps.movingtruth.com/ko/">
+<link rel="alternate" hreflang="ru" href="https://apps.movingtruth.com/ru/">
+<link rel="alternate" hreflang="th" href="https://apps.movingtruth.com/th/">
+<link rel="alternate" hreflang="x-default" href="https://apps.movingtruth.com/">
+<!-- family-localization-meta:end -->
+
+<!-- family-localization-style:start -->
+<style>
+  .family-language{position:absolute;z-index:900;inset-block-start:4.75rem;inset-inline-end:1rem;color:#e8e0d0;font:600 .75rem/1.2 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+  .family-language details{position:relative}
+  .family-language summary{min-block-size:2.6rem;display:flex;align-items:center;gap:.55rem;padding:.3rem .75rem;list-style:none;border:1px solid rgba(201,168,76,.24);border-radius:999px;background:rgba(13,13,13,.82);cursor:pointer;backdrop-filter:blur(12px)}
+  .family-language summary::-webkit-details-marker{display:none}
+  .family-language summary::after{content:"⌄";font-size:1rem;color:#c9a84c}
+  .family-language details[open] summary::after{transform:rotate(180deg)}
+  .family-language__label{position:absolute;inline-size:1px;block-size:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+  .family-language__menu{position:absolute;inset-block-start:calc(100% + .45rem);inset-inline-end:0;min-inline-size:12rem;max-block-size:min(65vh,28rem);overflow:auto;display:grid;gap:.2rem;padding:.4rem;border:1px solid rgba(201,168,76,.24);border-radius:16px;background:rgba(13,13,13,.97);box-shadow:0 16px 45px rgba(0,0,0,.42);backdrop-filter:blur(16px)}
+  .family-language a{min-block-size:2.5rem;display:flex;align-items:center;padding:0 .7rem;border-radius:10px;color:inherit;text-decoration:none;white-space:nowrap}
+  .family-language a:hover,.family-language a:focus-visible{background:rgba(201,168,76,.16);outline:2px solid transparent}
+  .family-language a[aria-current="page"]{background:#c9a84c;color:#111}
+  .language-suggestion{position:fixed;z-index:1100;inset-inline:50%;inset-block-end:1rem;transform:translateX(-50%);inline-size:min(calc(100% - 2rem),42rem);display:flex;align-items:center;justify-content:center;gap:.7rem;flex-wrap:wrap;padding:.8rem 1rem;border:1px solid rgba(201,168,76,.42);border-radius:16px;background:rgba(13,13,13,.96);color:#e8e0d0;font:600 .88rem/1.4 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;box-shadow:0 16px 45px rgba(0,0,0,.42);backdrop-filter:blur(16px)}
+  .language-suggestion p{margin:0;color:#e8e0d0}
+  .language-suggestion a,.language-suggestion button{min-block-size:2.35rem;display:inline-flex;align-items:center;padding:0 .8rem;border:1px solid rgba(201,168,76,.5);border-radius:999px;background:transparent;color:#e8e0d0;font:inherit;text-decoration:none;cursor:pointer}
+  .language-suggestion a{background:#c9a84c;color:#111}
+  .language-suggestion a:focus-visible,.language-suggestion button:focus-visible{outline:2px solid #f1d47a;outline-offset:2px}
+  @media (max-width:700px){.family-language{inset-block-start:4.8rem;inset-inline-end:.75rem}}
+</style>
+<!-- family-localization-style:end -->
+<!-- family-localization-script:start -->
+<script src="../localization/language-preference.js" defer></script>
+<!-- family-localization-script:end -->
+</head>
+<body>
+<!-- family-localization:start -->
+<div class="family-language">
+<details>
+<summary><span class="family-language__label">ภาษา</span><span>ไทย</span></summary>
+<nav class="family-language__menu" aria-label="ภาษา">
+  <a href="https://apps.movingtruth.com/" lang="en" data-language-choice="en">English</a>
+  <a href="https://apps.movingtruth.com/fr/" lang="fr" data-language-choice="fr">Français</a>
+  <a href="https://apps.movingtruth.com/es/" lang="es" data-language-choice="es">Español</a>
+  <a href="https://apps.movingtruth.com/de/" lang="de" data-language-choice="de">Deutsch</a>
+  <a href="https://apps.movingtruth.com/pt-BR/" lang="pt-BR" data-language-choice="pt-BR">Português (Brasil)</a>
+  <a href="https://apps.movingtruth.com/it/" lang="it" data-language-choice="it">Italiano</a>
+  <a href="https://apps.movingtruth.com/nl/" lang="nl" data-language-choice="nl">Nederlands</a>
+  <a href="https://apps.movingtruth.com/hi/" lang="hi" data-language-choice="hi">हिन्दी</a>
+  <a href="https://apps.movingtruth.com/ar/" lang="ar" data-language-choice="ar">العربية</a>
+  <a href="https://apps.movingtruth.com/zh-Hans/" lang="zh-Hans" data-language-choice="zh-Hans">简体中文</a>
+  <a href="https://apps.movingtruth.com/ja/" lang="ja" data-language-choice="ja">日本語</a>
+  <a href="https://apps.movingtruth.com/ko/" lang="ko" data-language-choice="ko">한국어</a>
+  <a href="https://apps.movingtruth.com/ru/" lang="ru" data-language-choice="ru">Русский</a>
+  <a href="https://apps.movingtruth.com/th/" lang="th" data-language-choice="th" aria-current="page">ไทย</a>
+</nav>
+</details>
+</div>
+<!-- family-localization:end -->
+  <a class="skip-link" href="#main-content">ข้ามไปยังเนื้อหาหลัก</a>
+
+  <div class="living-canvas" aria-hidden="true">
+    <div class="living-canvas__gradient"></div>
+    <div class="living-canvas__glow"></div>
+    <div class="living-canvas__motes" id="motes"></div>
+    <svg class="living-canvas__corners" id="corner-spirals"></svg>
+  </div>
+
+  <header class="site-nav" role="banner">
+    <a class="site-nav__brand" href="#top" aria-label="หน้าหลักแอป Moving Truth">
+      <img src="../assets/moving-truth-logo.png" alt="">
+      <span>Moving Truth Apps</span>
+    </a>
+    <button class="site-nav__toggle" type="button" aria-expanded="false" aria-controls="site-links">
+      <span class="sr-only">เปิดเมนูนำทาง</span>
+      <span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span>
+    </button>
+    <nav aria-label="เมนูนำทางหลัก">
+      <ul class="site-nav__links" id="site-links">
+        <li><a href="#apps">แอป</a></li>
+        <li><a href="#principles">หลักการของเรา</a></li>
+        <li><a href="https://movingtruth.com">Moving Truth</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section class="hero hero--hub" id="top" aria-labelledby="hero-title">
+      <a class="hero__mark" href="https://movingtruth.com" aria-label="เยี่ยมชม Moving Truth">
+        <img src="../assets/moving-truth-logo.png" alt="โลโก้ Moving Truth">
+      </a>
+      <span class="hero__eyebrow">ครอบครัว Inner</span>
+      <h1 class="hero__name" id="hero-title">แอปสำหรับพื้นที่ภายใน</h1>
+      <p class="hero__promise">ประตูห้าบานที่แตกต่างกัน ด้วยเจตนาเดียวกัน: เปิดพื้นที่ให้สิ่งที่จริงแท้</p>
+      <div class="hero__actions">
+        <a class="button button--solid" href="#apps">ทำความรู้จักแอป</a>
+        <a class="button button--outline" href="https://movingtruth.com/apps/">อ่านบน Moving Truth</a>
+      </div>
+      <p class="hero__scroll" aria-hidden="true">เลื่อนเพื่อเข้าสู่พื้นที่</p>
+    </section>
+
+    <div class="dot-row" aria-hidden="true">
+      <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+    </div>
+
+    <section class="intro" aria-labelledby="family-title">
+      <h2 id="family-title">สร้างอย่างเงียบสงบ สร้างอย่างใส่ใจ สร้างเพื่อชีวิตจริง</h2>
+      <p>แอป Moving Truth ไม่ใช่ฟีดที่แย่งชิงความสนใจ แต่ละแอปสร้างพื้นที่ภายในในแบบของตน สำหรับถ้อยคำ ความคิด บทอ่าน คำถามที่ควรอยู่ด้วย หรือพื้นที่ให้มือได้เคลื่อนไหว</p>
+      <p class="intro__trust">ไม่มีแอปใดพยายามเป็นทุกอย่าง เมื่ออยู่ร่วมกัน แอปเหล่านี้ค่อย ๆ ก่อร่างเป็นสถานที่หนึ่ง</p>
+    </section>
+
+    <section class="app-family" id="apps" aria-labelledby="apps-title">
+      <div class="section-heading">
+        <span class="eyebrow">เลือกประตู</span>
+        <h2 id="apps-title">คุณต้องการพื้นที่สำหรับสิ่งใด</h2>
+        <p>เริ่มจากแอปที่พบคุณตรงกับช่วงเวลาที่คุณกำลังอยู่</p>
+      </div>
+
+      <div class="app-grid">
+        <a class="app-card" style="--card-rgb: 113, 164, 151" href="https://inner-whisper.movingtruth.com/th/">
+          <img class="app-card__icon" src="../assets/inner-whisper.png" alt="ไอคอน Inner Whisper: ใบไม้เรืองแสงโอบอุ้มคลื่นสีทอง">
+          <div class="app-card__body">
+            <span class="app-card__status">พร้อมให้ใช้แล้ว</span>
+            <h3>Inner Whisper</h3>
+            <p class="app-card__tagline">พื้นที่สงบสำหรับถ้อยคำที่ตามหาคุณจนพบ</p>
+            <p class="app-card__copy">คำคมหนึ่งประโยค วางลงอย่างเงียบ ๆ ในจังหวะของวัน ไม่ใช่ฟีด ไม่ใช่รายการ แต่เป็นเสียงกระซิบ</p>
+            <span class="app-card__cta">เข้าสู่ Inner Whisper →</span>
+          </div>
+        </a>
+
+        <a class="app-card" style="--card-rgb: 201, 168, 76" href="https://inner-thought.movingtruth.com/th/">
+          <img class="app-card__icon" src="../assets/inner-thought.png" alt="ไอคอน Inner Thought: คลื่นสีทองไหลเข้าสู่เกลียว">
+          <div class="app-card__body">
+            <span class="app-card__status">เร็ว ๆ นี้</span>
+            <h3>Inner Thought</h3>
+            <p class="app-card__tagline">เพียงท่าทางเดียว พูดสิ่งที่อยู่ข้างใน แล้วเก็บไว้อย่างปลอดภัย</p>
+            <p class="app-card__copy">เก็บสิ่งที่อาจเลือนหาย—คำพูด งานเขียน ภาพถ่าย หรือวิดีโอ—โดยไม่บังคับให้ต้องจัดหมวดหมู่ในขณะที่บันทึก</p>
+            <span class="app-card__cta">เข้าสู่ Inner Thought →</span>
+          </div>
+        </a>
+
+        <a class="app-card" style="--card-rgb: 242, 166, 67" href="https://inner-sign.movingtruth.com/th/">
+          <img class="app-card__icon" src="../assets/inner-sign.png" alt="ไอคอน Inner Sign: สัญลักษณ์ธาตุสีทองสี่แบบล้อมเกลียวกลางบนพื้นมืด">
+          <div class="app-card__body">
+            <span class="app-card__status">เร็ว ๆ นี้</span>
+            <h3>Inner Sign</h3>
+            <p class="app-card__tagline">ดวงอาทิตย์ ตัวเลข นักษัตร และดวงจันทร์—การอ่านหนึ่งบทที่เกิดขึ้นใหม่ทุกวัน</p>
+            <p class="app-card__copy">สี่ศาสตร์ที่เป็นอิสระมาพบกันในการอ่านประจำวันอย่างโปร่งใส พร้อมสามวิธีที่ซื่อตรงในการอ่านท้องฟ้า</p>
+            <span class="app-card__cta">เข้าสู่ Inner Sign →</span>
+          </div>
+        </a>
+
+        <a class="app-card" style="--card-rgb: 207, 138, 71" href="https://inner-course.movingtruth.com/th/">
+          <img class="app-card__icon" src="../assets/inner-course.png" alt="ไอคอน Inner Course: หนังสือหนังเก่าที่ประทับสัญลักษณ์ Moving Truth">
+          <div class="app-card__body">
+            <span class="app-card__status">เร็ว ๆ นี้</span>
+            <h3>Inner Course</h3>
+            <p class="app-card__tagline">เมื่อ Moving Truth เคลื่อนออกสู่ภายนอก Inner Course เคลื่อนกลับเข้าสู่ภายใน</p>
+            <p class="app-card__copy">บทเรียนและการใคร่ครวญ ไม่ใช่ฟีดหรือชุดคำคม แต่เป็นเพื่อนร่วมทางของคำถามที่ควรใช้ชีวิตอยู่ด้วย</p>
+            <span class="app-card__cta">เข้าสู่ Inner Course →</span>
+          </div>
+        </a>
+
+        <a class="app-card" style="--card-rgb: 215, 161, 75" href="https://inner-play.movingtruth.com/th/">
+          <img class="app-card__icon" src="../assets/inner-play-placeholder.png" alt="ไอคอน Inner Play ชั่วคราว: แป้นหมุนโลหะสีเข้มที่เรืองแสงอุ่นจากภายใน">
+          <div class="app-card__body">
+            <span class="app-card__status">เร็ว ๆ นี้ · ไอคอนชั่วคราว</span>
+            <h3>Inner Play</h3>
+            <p class="app-card__tagline">บางสิ่งสำหรับมือ พื้นที่สำหรับใจ</p>
+            <p class="app-card__copy">ตู้เล็กอันสงบของวัตถุดิจิทัลที่สัมผัสได้—วงล้อ สวิตช์ แถบเลื่อน และตัวควบคุมที่ตอบสนองด้วยการเคลื่อนไหว เสียง และแรงสั่นที่น่าเชื่อ</p>
+            <span class="app-card__cta">เข้าสู่ Inner Play →</span>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <section class="statement statement--bordered" id="principles" aria-labelledby="principles-title">
+      <span class="statement__symbol" aria-hidden="true">◎</span>
+      <span class="eyebrow">รากฐานใต้ทุกแอป</span>
+      <h2 id="principles-title">มนุษย์มาก่อน เป็นส่วนตัวตั้งแต่การออกแบบ เข้าถึงได้ตั้งแต่เริ่มต้น</h2>
+      <p>ทุกแอปของ Moving Truth เริ่มจากรากฐานถาวรเดียวกัน: ศักดิ์ศรีความเป็นมนุษย์ ความยับยั้งชั่งใจทางจริยธรรม ความเป็นส่วนตัวที่เข้าใจได้ และเทคโนโลยีที่รับใช้ผู้ใช้ ความงามต้องทำให้การใช้งานเป็นธรรมชาติ ไม่ใช่บดบังมัน</p>
+      <ul class="truth-list commitment-list">
+        <li><strong>การเข้าถึงเป็นเงื่อนไขของการเผยแพร่</strong> ทุกแอปบนแพลตฟอร์ม Apple ได้รับการออกแบบและทดสอบตามแนวทางการช่วยการเข้าถึงของ Apple ตลอดอายุการใช้งาน ไม่ใช่รุ่นแยกหรือการขัดเกลาในขั้นสุดท้าย</li>
+        <li><strong>สิบสี่ภาษา ทุกแห่งหน</strong> ทุกแอปของ Moving Truth ทั้งปัจจุบันและอนาคตเริ่มด้วยสถาปัตยกรรมสิบสี่ภาษาเดียวกัน เพื่อให้ผู้คนทั่วโลกได้รับประสบการณ์ทั้งหมด ไม่ใช่เพียงชิ้นส่วนที่ถูกแปล</li>
+        <li><strong>ความเป็นส่วนตัวและจริยธรรมอยู่ในโครงสร้าง</strong> ชีวิตภายในของใครไม่ควรถูกทำให้เป็นสินค้า การเก็บข้อมูล สิทธิ์ โมเดลธุรกิจ การแจ้งเตือน และเทคโนโลยีใหม่ต้องซื่อตรง ได้สัดส่วน และอยู่ภายใต้การควบคุมของมนุษย์</li>
+        <li><strong>iOS คือรูปแบบอ้างอิง</strong> บางแอปจะมีรุ่น Android แบบเนทีฟที่ยึดคำมั่นด้านมนุษย์ ความเป็นส่วนตัว การเข้าถึง จริยธรรม และภาษาเช่นเดียวกัน โดยสร้างอย่างซื่อตรงสำหรับ Android ไม่ใช่อ้างว่าเป็นสำเนาภาพที่เหมือนกันทุกประการ เพราะความลึก วัสดุ การเคลื่อนไหว และการผสานระบบบางอย่างบนแพลตฟอร์ม Apple ไม่อาจทำซ้ำได้ในแบบเดียวกัน</li>
+      </ul>
+    </section>
+
+    <section class="moving-truth" aria-label="เกี่ยวกับ Moving Truth">
+      <a class="moving-truth__ring" href="https://movingtruth.com" aria-label="Moving Truth เปิด movingtruth.com">
+        <img src="../assets/moving-truth-logo.png" alt="โลโก้ Moving Truth">
+      </a>
+      <strong>Moving Truth Apps</strong>
+      <span>โดย Moving Truth</span>
+      <small>สร้างด้วยความรักโดย Skylaur Roe</small>
+      <a href="https://movingtruth.com">movingtruth.com</a>
+    </section>
+
+    <section class="closing" aria-labelledby="closing-title">
+      <span class="eyebrow">งานนี้กำลังเติบโต</span>
+      <h2 id="closing-title">ก้าวผ่านประตูที่เปิดให้คุณ</h2>
+      <p>บางแอปอยู่ที่นี่แล้ว บางแอปยังค่อย ๆ ก่อร่าง แต่ละแอปจะมาถึงในฐานะสิ่งที่สมบูรณ์และสร้างอย่างใส่ใจเมื่อพร้อม</p>
+      <a class="button button--outline" href="mailto:support@movingtruth.com?subject=Moving%20Truth%20Apps">สอบถามเกี่ยวกับแอป</a>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer__brand"><img src="../assets/moving-truth-logo.png" alt=""><strong>Moving Truth Apps</strong></div>
+    <nav aria-label="เมนูนำทางส่วนท้าย">
+      <ul>
+        <li><a href="#apps">แอป</a></li>
+        <li><a href="#principles">หลักการ</a></li>
+        <li><a href="mailto:support@movingtruth.com">ฝ่ายช่วยเหลือ</a></li>
+        <li><a href="https://movingtruth.com">Moving Truth</a></li>
+      </ul>
+    </nav>
+    <p>© 2026 Moving Truth. งานเป็นผู้เอ่ยถ้อยคำ</p>
+  </footer>
+</body>
+</html>

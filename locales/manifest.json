@@ -19,21 +19,81 @@
   "localeStatus": {
     "en": "source",
     "fr": "draft-complete",
-    "es": "pending",
-    "de": "pending",
-    "pt-BR": "pending",
-    "it": "pending",
-    "nl": "pending",
-    "hi": "pending",
-    "ar": "pending",
-    "zh-Hans": "pending",
-    "ja": "pending",
-    "ko": "pending",
-    "ru": "pending",
-    "th": "pending"
+    "es": "draft-complete",
+    "de": "draft-complete",
+    "pt-BR": "draft-complete",
+    "it": "draft-complete",
+    "nl": "draft-complete",
+    "hi": "draft-complete",
+    "ar": "draft-complete",
+    "zh-Hans": "draft-complete",
+    "ja": "draft-complete",
+    "ko": "draft-complete",
+    "ru": "draft-complete",
+    "th": "draft-complete"
   },
   "review": {
     "fr": {
+      "fluentReviewer": null,
+      "technicalPrivacyReview": null,
+      "approvedForPublication": false
+    },
+    "es": {
+      "fluentReviewer": null,
+      "technicalPrivacyReview": null,
+      "approvedForPublication": false
+    },
+    "de": {
+      "fluentReviewer": null,
+      "technicalPrivacyReview": null,
+      "approvedForPublication": false
+    },
+    "pt-BR": {
+      "fluentReviewer": null,
+      "technicalPrivacyReview": null,
+      "approvedForPublication": false
+    },
+    "it": {
+      "fluentReviewer": null,
+      "technicalPrivacyReview": null,
+      "approvedForPublication": false
+    },
+    "nl": {
+      "fluentReviewer": null,
+      "technicalPrivacyReview": null,
+      "approvedForPublication": false
+    },
+    "hi": {
+      "fluentReviewer": null,
+      "technicalPrivacyReview": null,
+      "approvedForPublication": false
+    },
+    "ar": {
+      "fluentReviewer": null,
+      "technicalPrivacyReview": null,
+      "approvedForPublication": false
+    },
+    "zh-Hans": {
+      "fluentReviewer": null,
+      "technicalPrivacyReview": null,
+      "approvedForPublication": false
+    },
+    "ja": {
+      "fluentReviewer": null,
+      "technicalPrivacyReview": null,
+      "approvedForPublication": false
+    },
+    "ko": {
+      "fluentReviewer": null,
+      "technicalPrivacyReview": null,
+      "approvedForPublication": false
+    },
+    "ru": {
+      "fluentReviewer": null,
+      "technicalPrivacyReview": null,
+      "approvedForPublication": false
+    },
+    "th": {
       "fluentReviewer": null,
       "technicalPrivacyReview": null,
       "approvedForPublication": false
