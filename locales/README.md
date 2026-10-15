@@ -13,8 +13,12 @@ class:
   being public is not evidence that it was reviewed.
 - `unpublished`: canonical but not generated or offered in the language menu.
 
-The thirteen drafts are complete, meaning-first drafts of every current page, including
-Inner Thought's accessibility statement and Technical Craft page.
+Every current page, including Inner Thought's accessibility statement and Technical Craft
+page, is present in all thirteen draft languages. Page presence is complete; translation
+is not. The drafts are meaning-first, and 61 known untranslated occurrences remain, each
+recorded as `draft-debt` in the sites' `coverage-exceptions.json`: Inner Whisper's
+link-preview description (all thirteen languages), its "Aurora" theme name (nine
+languages), and three iOS Settings paths on its privacy page (all thirteen languages).
 
 ## How a change reaches the public sites
 
