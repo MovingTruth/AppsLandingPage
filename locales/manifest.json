@@ -1,5 +1,5 @@
 {
-  "sourceRevision": "2026-07-23",
+  "schemaVersion": 2,
   "canonicalLocales": [
     "en",
     "fr",
@@ -16,87 +16,100 @@
     "ru",
     "th"
   ],
-  "localeStatus": {
-    "en": "source",
-    "fr": "draft-complete",
-    "es": "draft-complete",
-    "de": "draft-complete",
-    "pt-BR": "draft-complete",
-    "it": "draft-complete",
-    "nl": "draft-complete",
-    "hi": "draft-complete",
-    "ar": "draft-complete",
-    "zh-Hans": "draft-complete",
-    "ja": "draft-complete",
-    "ko": "draft-complete",
-    "ru": "draft-complete",
-    "th": "draft-complete"
-  },
-  "review": {
+  "publication": {
+    "en": {
+      "class": "source"
+    },
     "fr": {
-      "fluentReviewer": null,
-      "technicalPrivacyReview": null,
-      "approvedForPublication": false
+      "class": "published-draft",
+      "review": {
+        "fluentReviewer": null,
+        "technicalReview": null
+      }
     },
     "es": {
-      "fluentReviewer": null,
-      "technicalPrivacyReview": null,
-      "approvedForPublication": false
+      "class": "published-draft",
+      "review": {
+        "fluentReviewer": null,
+        "technicalReview": null
+      }
     },
     "de": {
-      "fluentReviewer": null,
-      "technicalPrivacyReview": null,
-      "approvedForPublication": false
+      "class": "published-draft",
+      "review": {
+        "fluentReviewer": null,
+        "technicalReview": null
+      }
     },
     "pt-BR": {
-      "fluentReviewer": null,
-      "technicalPrivacyReview": null,
-      "approvedForPublication": false
+      "class": "published-draft",
+      "review": {
+        "fluentReviewer": null,
+        "technicalReview": null
+      }
     },
     "it": {
-      "fluentReviewer": null,
-      "technicalPrivacyReview": null,
-      "approvedForPublication": false
+      "class": "published-draft",
+      "review": {
+        "fluentReviewer": null,
+        "technicalReview": null
+      }
     },
     "nl": {
-      "fluentReviewer": null,
-      "technicalPrivacyReview": null,
-      "approvedForPublication": false
+      "class": "published-draft",
+      "review": {
+        "fluentReviewer": null,
+        "technicalReview": null
+      }
     },
     "hi": {
-      "fluentReviewer": null,
-      "technicalPrivacyReview": null,
-      "approvedForPublication": false
+      "class": "published-draft",
+      "review": {
+        "fluentReviewer": null,
+        "technicalReview": null
+      }
     },
     "ar": {
-      "fluentReviewer": null,
-      "technicalPrivacyReview": null,
-      "approvedForPublication": false
+      "class": "published-draft",
+      "review": {
+        "fluentReviewer": null,
+        "technicalReview": null
+      }
     },
     "zh-Hans": {
-      "fluentReviewer": null,
-      "technicalPrivacyReview": null,
-      "approvedForPublication": false
+      "class": "published-draft",
+      "review": {
+        "fluentReviewer": null,
+        "technicalReview": null
+      }
     },
     "ja": {
-      "fluentReviewer": null,
-      "technicalPrivacyReview": null,
-      "approvedForPublication": false
+      "class": "published-draft",
+      "review": {
+        "fluentReviewer": null,
+        "technicalReview": null
+      }
     },
     "ko": {
-      "fluentReviewer": null,
-      "technicalPrivacyReview": null,
-      "approvedForPublication": false
+      "class": "published-draft",
+      "review": {
+        "fluentReviewer": null,
+        "technicalReview": null
+      }
     },
     "ru": {
-      "fluentReviewer": null,
-      "technicalPrivacyReview": null,
-      "approvedForPublication": false
+      "class": "published-draft",
+      "review": {
+        "fluentReviewer": null,
+        "technicalReview": null
+      }
     },
     "th": {
-      "fluentReviewer": null,
-      "technicalPrivacyReview": null,
-      "approvedForPublication": false
+      "class": "published-draft",
+      "review": {
+        "fluentReviewer": null,
+        "technicalReview": null
+      }
     }
   },
   "sites": [
