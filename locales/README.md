@@ -22,34 +22,60 @@ languages), and three iOS Settings paths on its privacy page (all thirteen langu
 
 ## How a change reaches the public sites
 
-These are five separate stages, and no stage implies the next:
+These are six separate stages, and no stage implies the next:
 
-1. **Generation.** Moving Truth's private release tooling reads each site's
-   `locales/<locale>.json` and writes the static locale pages. Every published
-   translation must live in those catalogs. Never edit a generated locale page by hand,
-   because the next build replaces it.
+1. **Generation.** Moving Truth's private release tooling reads each site's message
+   registry (`locales/messages.json`) and catalogs (`locales/<locale>.json`) and writes
+   the static locale pages. Every published translation must live in those catalogs.
+   Never edit a generated locale page by hand, because the next build replaces it.
 2. **Automated validation.** Before writing anything, the tooling checks:
    - publication classes;
+   - **message identity**: every translated piece of an English page has a registered
+     message ID at an exact place in the page, and every catalog entry names a
+     registered ID (see "Message IDs" below);
+   - **changed-source staleness**: each translation records a fingerprint (SHA-256) of
+     the English it was made from. When that English is edited, the translation is
+     reported stale, in every language, until a person updates it or explicitly
+     reaffirms it. The tooling never does either itself;
    - **coverage**: every translatable source string has a translation, or an explicit
      entry in `coverage-exceptions.json`;
-   - **unused messages**: no catalog entry is left over;
    - links between the family sites.
 
-   It does **not** detect **changed-source staleness**, meaning an English sentence
-   edited after it was translated. That needs stable message IDs and is planned
-   separately.
+   Any failure stops generation before anything is written.
 3. **Human approval.** Robin approves each change and release. Generation and validation
    do not approve anything.
-4. **Git integration.** Approved changes are committed and pushed to each repository's
+4. **Release gate.** The release tooling checks the exact approved commits of all six
+   sites together: the validation above, its full test suite, and **identity
+   continuity**: every message and exception ID on the live `main` branch still names
+   the same piece of the page, or has been retired, and no retired ID is reused. Only
+   then does it mark the commits as passed. Each site's `main` branch accepts only
+   commits so marked.
+5. **Git integration.** The approved, passed commits are pushed to each repository's
    `main` branch. The tooling never commits or pushes.
-5. **Deployment.** Each of the six sites is deployed independently by GitHub Pages from
+6. **Deployment.** Each of the six sites is deployed independently by GitHub Pages from
    its own `main` branch.
+
+## Message IDs
+
+`messages.json` in each site lists every translated piece of its English pages. Each has
+an ID such as `inner-sign.index.text.0012` (site, page, kind, number), the place in the
+page where it appears, its current English, and that English's fingerprint. The catalogs
+are keyed by these IDs, never by the English itself, so:
+
+- editing an English sentence keeps its ID and its translations, and marks each
+  translation stale until it is reviewed;
+- the same English in two places has two IDs, so each place can carry its own
+  translation;
+- an ID never moves to a different piece of the page. When a piece is removed, its ID
+  is listed under `retired` and is never used again; a new piece gets a new number.
 
 ## Coverage exceptions
 
 `coverage-exceptions.json` in each site lists every source string that intentionally or
-knowingly stays in English on a locale page. Each entry gives the page, kind, exact
-source text, exact locales, category and rationale. There are three categories:
+knowingly stays in English on a locale page. Each entry has its own fixed ID (such as
+`inner-sign.index.exception.0001`) and gives the page, kind, exact source text, exact
+locales, category and rationale. A removed entry's ID is listed under `retired` and is
+never reused. There are three categories:
 
 - `identifier`: a metadata or technical token;
 - `shared-literal`: a brand name, email address or domain that is the same in every
