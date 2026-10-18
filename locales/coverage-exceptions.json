@@ -2,6 +2,7 @@
   "about": "Coverage exceptions: source strings deliberately or knowingly left untranslated on published locale pages. Each entry names the exact page, kind, source, locales, category (identifier | shared-literal | draft-debt), and rationale. Draft debt is untranslated content still to be translated; a locale with draft debt cannot be classified reviewed.",
   "exceptions": [
     {
+      "id": "apps.index.exception.0001",
       "page": "index.html",
       "kind": "content",
       "source": "Moving Truth Apps",
@@ -24,6 +25,7 @@
       "rationale": "Product or company name; family rule keeps Moving Truth and app names unchanged in every language. (og:site_name)"
     },
     {
+      "id": "apps.index.exception.0002",
       "page": "index.html",
       "kind": "content",
       "source": "summary",
@@ -46,6 +48,7 @@
       "rationale": "Twitter/X card type metadata token; a fixed protocol value, not prose."
     },
     {
+      "id": "apps.index.exception.0003",
       "page": "index.html",
       "kind": "content",
       "source": "website",
@@ -68,6 +71,7 @@
       "rationale": "Open Graph og:type metadata token (\"website\"); a fixed protocol value, not prose."
     },
     {
+      "id": "apps.index.exception.0004",
       "page": "index.html",
       "kind": "text",
       "source": "Inner Course",
@@ -90,6 +94,7 @@
       "rationale": "Product or company name; family rule keeps Moving Truth and app names unchanged in every language."
     },
     {
+      "id": "apps.index.exception.0005",
       "page": "index.html",
       "kind": "text",
       "source": "Inner Play",
@@ -112,6 +117,7 @@
       "rationale": "Product or company name; family rule keeps Moving Truth and app names unchanged in every language."
     },
     {
+      "id": "apps.index.exception.0006",
       "page": "index.html",
       "kind": "text",
       "source": "Inner Sign",
@@ -134,6 +140,7 @@
       "rationale": "Product or company name; family rule keeps Moving Truth and app names unchanged in every language."
     },
     {
+      "id": "apps.index.exception.0007",
       "page": "index.html",
       "kind": "text",
       "source": "Inner Thought",
@@ -156,6 +163,7 @@
       "rationale": "Product or company name; family rule keeps Moving Truth and app names unchanged in every language."
     },
     {
+      "id": "apps.index.exception.0008",
       "page": "index.html",
       "kind": "text",
       "source": "Inner Whisper",
@@ -178,6 +186,7 @@
       "rationale": "Product or company name; family rule keeps Moving Truth and app names unchanged in every language."
     },
     {
+      "id": "apps.index.exception.0009",
       "page": "index.html",
       "kind": "text",
       "source": "Moving Truth",
@@ -200,6 +209,7 @@
       "rationale": "Product or company name; family rule keeps Moving Truth and app names unchanged in every language."
     },
     {
+      "id": "apps.index.exception.0010",
       "page": "index.html",
       "kind": "text",
       "source": "Moving Truth Apps",
@@ -222,6 +232,7 @@
       "rationale": "Product or company name; family rule keeps Moving Truth and app names unchanged in every language."
     },
     {
+      "id": "apps.index.exception.0011",
       "page": "index.html",
       "kind": "text",
       "source": "movingtruth.com",
