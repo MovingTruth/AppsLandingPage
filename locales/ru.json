@@ -134,8 +134,8 @@
       "sourceSha256": "dcd2d7a65851cbbb61308ea91f0b09a3814c90cea972cd032999aacfb4e1d73a"
     },
     "apps.index.text.0034": {
-      "value": "Скоро · временный значок",
-      "sourceSha256": "308ee72fa48a529ba983023b4228a1953b5278d85fdccce1ad82e14c523da7c0"
+      "value": "Скоро",
+      "sourceSha256": "4f7d64017689437e6d93f5724f3f797054f3935d98a13148025b616b8db8fb2c"
     },
     "apps.index.text.0035": {
       "value": "Что-то для рук. Пространство для разума.",
@@ -258,24 +258,24 @@
       "sourceSha256": "3c19c00420a1f78422a5cdb3fe3d6d00e2c33c24e5cb83ec54b8459b70b8fbb7"
     },
     "apps.index.attribute.0007": {
-      "value": "Значок Inner Whisper: светящийся лист с золотой волной",
-      "sourceSha256": "32ef2d74188b0878269a0fc0df706b098b92b49e067c0b8ba2f5fcea6b58fb6f"
+      "value": "Inner Whisper — значок приложения",
+      "sourceSha256": "e7384093a8b981e9ef9156e3f98153805bd32e32169a93e9b9055b3e925f00a3"
     },
     "apps.index.attribute.0008": {
-      "value": "Значок Inner Thought: золотая волна, переходящая в спираль",
-      "sourceSha256": "e8c797dfb6f58044206c8568f6e2c49ba0ac0ffd1f27bae0f55b15eaa5730e7c"
+      "value": "Inner Thought — значок приложения",
+      "sourceSha256": "b94a7afdfb09f227b065a0887defbc028fc1e7b47a2f53237f50fdec135bbbf9"
     },
     "apps.index.attribute.0009": {
-      "value": "Значок Inner Sign: четыре золотых символа стихий вокруг спирали на тёмном фоне",
-      "sourceSha256": "ae431171ba530a6d0884be323a249b1504a2a43eafc99d97332b6d002bd39cc4"
+      "value": "Inner Sign — значок приложения",
+      "sourceSha256": "028bea1c3e20166d51ccced37dda27b0e51efc59a8dd16de5b5fb7f6690c7db6"
     },
     "apps.index.attribute.0010": {
-      "value": "Значок Inner Course: потёртая кожаная книга с символом Moving Truth",
-      "sourceSha256": "36221842e99084f5f51081e49272c1c5c9b72bd5de7cf2ec425c72d8365f51fb"
+      "value": "Inner Course — значок приложения",
+      "sourceSha256": "e896e502961f67b2679f1d4e02c6154699ac6cf1da7d0678dd8fa42cb18f82a1"
     },
     "apps.index.attribute.0011": {
-      "value": "Временный значок Inner Play: тёмный металлический подвижный диск с тёплым светом изнутри",
-      "sourceSha256": "7af4595e2653269f09315f9d598afa3a7a2ef9a1a804c1724f64e6399964e75e"
+      "value": "Inner Play — значок приложения",
+      "sourceSha256": "822a243def25e04589e222448449a17b57d8fbd275f9a2c1e0c08e7415587f11"
     },
     "apps.index.attribute.0012": {
       "value": "О Moving Truth",
@@ -304,6 +304,30 @@
     "apps.site-js.script.0002": {
       "value": "Открыть навигацию",
       "sourceSha256": "0ed77fd2619ba8ab3e1cce72c8e61d887d551ca1220164b88ab1aa66bba7177d"
+    },
+    "apps.index.attribute.0016": {
+      "value": "Inner Vault — значок приложения",
+      "sourceSha256": "00cec89abe9c3be7cee9893e480dbd6d9d8f1795d10b44379014d5b3bd78819c"
+    },
+    "apps.index.text.0059": {
+      "value": "В разработке",
+      "sourceSha256": "5259ae65614671c45dc0a4f34a05a2cd323dc9817543340d5459b67fda87d394"
+    },
+    "apps.index.text.0060": {
+      "value": "Inner Vault",
+      "sourceSha256": "615c75cc0d2f92e1a496620dc510f06414a13090e15cfcd3fb1083ea5f143ca9"
+    },
+    "apps.index.text.0061": {
+      "value": "Некоторые вещи принадлежат только вам.",
+      "sourceSha256": "dbde6f382408a73d50900d237a9a96389457c33806cc8117984fbde464c4f682"
+    },
+    "apps.index.text.0062": {
+      "value": "Личное пространство для фотографий, заметок, записей и документов. Разработка на раннем этапе; запланированные средства защиты ещё не реализованы.",
+      "sourceSha256": "3d9ec1a32b5c7dffb5276d8fc0666a7acb51981be59acae291f6470f2b794c13"
+    },
+    "apps.index.text.0063": {
+      "value": "Открыть Inner Vault →",
+      "sourceSha256": "1bcddf068f0404226c8804bebe35b2f41bed519d4861ab4616cb49f67d1279b1"
     }
   }
 }
