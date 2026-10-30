@@ -63,8 +63,8 @@
       "page": "index.html",
       "kind": "text",
       "locator": "#top/p[1]/text()[1]",
-      "source": "Six different doors. One intention: make room for something true.",
-      "sourceSha256": "5ca41736be19302e8b59d7a953446b4aa0146bdb46bee4bda0429c5bfaee77d7"
+      "source": "Many different doors. One intention: make room for something true.",
+      "sourceSha256": "6a93b3cabca2005de4040e826895306b456a00a9c820f8331aef7baef2cc8788"
     },
     {
       "id": "apps.index.text.0009",
