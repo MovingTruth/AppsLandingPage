@@ -102,8 +102,8 @@
       "sourceSha256": "2dff5dd391d9f4785b7f629ad8fdd90d331d78bab31637823141541124a0931c"
     },
     "apps.index.text.0026": {
-      "value": "곧 출시",
-      "sourceSha256": "4f7d64017689437e6d93f5724f3f797054f3935d98a13148025b616b8db8fb2c"
+      "value": "개발 중",
+      "sourceSha256": "5259ae65614671c45dc0a4f34a05a2cd323dc9817543340d5459b67fda87d394"
     },
     "apps.index.text.0027": {
       "value": "태양, 숫자, 띠, 달—매일 새롭게 엮이는 하나의 해석.",
@@ -118,8 +118,8 @@
       "sourceSha256": "294859aa00c89b96ec7799b9d4cfae5171551df7de40adad7a08cc9018e14219"
     },
     "apps.index.text.0030": {
-      "value": "곧 출시",
-      "sourceSha256": "4f7d64017689437e6d93f5724f3f797054f3935d98a13148025b616b8db8fb2c"
+      "value": "개발 중",
+      "sourceSha256": "5259ae65614671c45dc0a4f34a05a2cd323dc9817543340d5459b67fda87d394"
     },
     "apps.index.text.0031": {
       "value": "Moving Truth가 바깥으로 향한다면, Inner Course는 안으로 향합니다.",
@@ -134,8 +134,8 @@
       "sourceSha256": "dcd2d7a65851cbbb61308ea91f0b09a3814c90cea972cd032999aacfb4e1d73a"
     },
     "apps.index.text.0034": {
-      "value": "곧 출시",
-      "sourceSha256": "4f7d64017689437e6d93f5724f3f797054f3935d98a13148025b616b8db8fb2c"
+      "value": "개발 중",
+      "sourceSha256": "5259ae65614671c45dc0a4f34a05a2cd323dc9817543340d5459b67fda87d394"
     },
     "apps.index.text.0035": {
       "value": "손을 위한 무언가. 마음을 위한 여백.",
@@ -328,6 +328,62 @@
     "apps.index.text.0063": {
       "value": "Inner Vault 살펴보기 →",
       "sourceSha256": "1bcddf068f0404226c8804bebe35b2f41bed519d4861ab4616cb49f67d1279b1"
+    },
+    "apps.index.text.0064": {
+      "value": "기술 공예",
+      "sourceSha256": "ed7b84a2eb484c5b73f39e114cd551a47e8e1b764b945ccfaa1c98280fc3439b"
+    },
+    "apps.index.text.0065": {
+      "value": "기술 공예",
+      "sourceSha256": "ed7b84a2eb484c5b73f39e114cd551a47e8e1b764b945ccfaa1c98280fc3439b"
+    },
+    "apps.index.text.0066": {
+      "value": "차분함을 위한 엔지니어링",
+      "sourceSha256": "b75cd8fb45d52c793bd8fcd107d101102992dc5c708ebed02bef2f8dd3281be5"
+    },
+    "apps.index.text.0067": {
+      "value": "앱 제품군 전반에서 기술적 결정은 사용하는 사람을 위해 내려집니다. 각 앱은 고유한 아키텍처를 가지며 같은 기준의 안내를 받습니다.",
+      "sourceSha256": "5498563802532dd598635f1688d679e0f3c0e50b77bab7b4d815804ff6897908"
+    },
+    "apps.index.text.0068": {
+      "value": "기본 설계",
+      "sourceSha256": "025f6a9359f5cf5490690f057d9dc62fbcf59ebb98970452e8f272348a43c1d4"
+    },
+    "apps.index.text.0069": {
+      "value": "가장 명확하고 신뢰할 수 있는 경험을 제공할 때 플랫폼 네이티브 도구를 선택합니다. 제품이 방향을 이끌고 기술은 그 뒤를 따릅니다.",
+      "sourceSha256": "dd504d10aacdca60ddb8340919daaccb79fa303a2dca26550a0d4bfe38bdb0e6"
+    },
+    "apps.index.text.0070": {
+      "value": "구조별 비공개",
+      "sourceSha256": "22fd7b42a3583a9e98aba945ffe50311b21ce5c603743236e0bbb725db5aebd9"
+    },
+    "apps.index.text.0071": {
+      "value": "가능한 한 적은 데이터를 수집하고, 제품이 허용하는 경우 데이터를 기기에 보관하며, 권한·저장·암호화·삭제를 설계 결정으로 다룹니다.",
+      "sourceSha256": "2bdcab9bb048d1d9d443c9e1ac01a6cf1b9cbc9ec8f83664d8baf1811e337495"
+    },
+    "apps.index.text.0072": {
+      "value": "사람이 먼저",
+      "sourceSha256": "5b4f83fad5351a96eec969e4432b2a69d920d2e0d5742025d353b8f763e3934e"
+    },
+    "apps.index.text.0073": {
+      "value": "접근성은 전체 작업의 흐름에서 고려합니다. 더 큰 텍스트, 보조 기술, 동작 줄이기, 높은 대비, 그리고 이해하거나 행동할 수 있는 여러 방법을 지원합니다.",
+      "sourceSha256": "45d48664447a3742bd2b2f263f069b3dfc47af669bb92dccf6163d5337941644"
+    },
+    "apps.index.text.0074": {
+      "value": "자신감이 아닌 증거",
+      "sourceSha256": "1fab7bb5cb4d67127ed654d8c6afdbd8079748238acdaf8ff369d92e1931facd"
+    },
+    "apps.index.text.0075": {
+      "value": "테스트, 기기 점검, 출시 기준이 우리의 주장을 뒷받침합니다. 계획된 것, 구현된 것, 검증된 것을 명확히 구분합니다.",
+      "sourceSha256": "fe28db52503e80e6f9112d44f4e2584c2d2f13b92e1bb739bea02372fc432359"
+    },
+    "apps.index.text.0076": {
+      "value": "복잡함을 조심스럽게 이면에 담았기 때문에 결과는 단순하게 느껴지도록 의도되었습니다.",
+      "sourceSha256": "c6ab85229e334e4a21de7f828211d60f8a871dee3581b8c664e7e37b3eeef256"
+    },
+    "apps.index.text.0077": {
+      "value": "기술 공예",
+      "sourceSha256": "ed7b84a2eb484c5b73f39e114cd551a47e8e1b764b945ccfaa1c98280fc3439b"
     }
   }
 }

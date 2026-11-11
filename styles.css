@@ -125,6 +125,15 @@ img { max-width: 100%; }
 .commitment-list li { padding: 1rem 1.1rem; border: 1px solid var(--separator); border-radius: 14px; background: rgba(255,255,255,.018); line-height: 1.65; }
 .commitment-list li::before { margin-inline-end: .45rem; margin-right: 0; }
 .commitment-list strong { color: var(--cream); }
+.craft { max-width: 920px; margin: 4.5rem auto 0; padding-top: 4rem; border-top: 1px solid var(--separator); }
+.craft h3 { margin-bottom: 1rem; color: var(--cream); font-size: clamp(1.7rem, 4vw, 2.35rem); line-height: 1.16; letter-spacing: -.025em; }
+.craft__intro { max-width: 680px; margin-inline: auto; color: var(--taupe); font-size: 1.05rem; }
+.craft__grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1px; margin-top: 2.5rem; border: 1px solid var(--separator); border-radius: 18px; overflow: hidden; background: var(--separator); text-align: left; }
+.craft__grid article { min-height: 240px; padding: 1.8rem; background: rgba(13,13,13,.92); }
+.craft__grid article > span { display: block; margin-bottom: .8rem; color: var(--accent); font-size: 1.6rem; text-shadow: 0 0 24px rgba(var(--accent-rgb), .35); }
+.craft__grid h4 { margin-bottom: .65rem; color: var(--cream); font-size: 1.08rem; }
+.craft__grid p { color: var(--taupe); font-size: .92rem; }
+.craft__seal { max-width: 720px; margin: 2rem auto 0; color: rgba(238,231,218,.86); font-style: italic; }
 .capability-lines { display: grid; grid-template-columns: 1fr 1fr; margin-top: 2.5rem; border-top: 1px solid var(--separator); }
 .capability-lines > div { display: flex; flex-direction: column; gap: .3rem; padding: 1.4rem 1rem 1.4rem 0; border-bottom: 1px solid var(--separator); }
 .capability-lines > div:nth-child(odd) { border-right: 1px solid var(--separator); }
@@ -179,6 +188,8 @@ footer p { color: var(--taupe); opacity: .62; font-size: .76rem; }
   .feature-flow__list--four li:last-child { grid-column: auto; }
   .hero__name { font-size: clamp(2.2rem, 13vw, 3.5rem); }
   .hero__name--product { font-size: clamp(1.45rem, 8vw, 2rem); }
+  .craft__grid { grid-template-columns: 1fr; }
+  .craft__grid article { min-height: 0; }
 }
 @media (max-width: 540px) {
   .app-card { grid-template-columns: 82px 1fr; gap: 1rem; min-height: 0; padding: 1.7rem 0; }

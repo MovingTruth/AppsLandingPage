@@ -207,8 +207,8 @@
       "page": "index.html",
       "kind": "text",
       "locator": "#apps/div[2]/a[3]/div[1]/span[1]/text()[1]",
-      "source": "Coming soon",
-      "sourceSha256": "4f7d64017689437e6d93f5724f3f797054f3935d98a13148025b616b8db8fb2c"
+      "source": "In development",
+      "sourceSha256": "5259ae65614671c45dc0a4f34a05a2cd323dc9817543340d5459b67fda87d394"
     },
     {
       "id": "apps.index.text.0027",
@@ -239,8 +239,8 @@
       "page": "index.html",
       "kind": "text",
       "locator": "#apps/div[2]/a[4]/div[1]/span[1]/text()[1]",
-      "source": "Coming soon",
-      "sourceSha256": "4f7d64017689437e6d93f5724f3f797054f3935d98a13148025b616b8db8fb2c"
+      "source": "In development",
+      "sourceSha256": "5259ae65614671c45dc0a4f34a05a2cd323dc9817543340d5459b67fda87d394"
     },
     {
       "id": "apps.index.text.0031",
@@ -271,8 +271,8 @@
       "page": "index.html",
       "kind": "text",
       "locator": "#apps/div[2]/a[5]/div[1]/span[1]/text()[1]",
-      "source": "Coming soon",
-      "sourceSha256": "4f7d64017689437e6d93f5724f3f797054f3935d98a13148025b616b8db8fb2c"
+      "source": "In development",
+      "sourceSha256": "5259ae65614671c45dc0a4f34a05a2cd323dc9817543340d5459b67fda87d394"
     },
     {
       "id": "apps.index.text.0035",
@@ -505,6 +505,118 @@
       "locator": "#apps/div[2]/a[6]/div[1]/span[2]/text()[1]",
       "source": "Enter Inner Vault →",
       "sourceSha256": "1bcddf068f0404226c8804bebe35b2f41bed519d4861ab4616cb49f67d1279b1"
+    },
+    {
+      "id": "apps.index.text.0064",
+      "page": "index.html",
+      "kind": "text",
+      "locator": "#site-links/li[4]/a[1]/text()[1]",
+      "source": "Technical Craft",
+      "sourceSha256": "ed7b84a2eb484c5b73f39e114cd551a47e8e1b764b945ccfaa1c98280fc3439b"
+    },
+    {
+      "id": "apps.index.text.0065",
+      "page": "index.html",
+      "kind": "text",
+      "locator": "#craft/span[1]/text()[1]",
+      "source": "Technical Craft",
+      "sourceSha256": "ed7b84a2eb484c5b73f39e114cd551a47e8e1b764b945ccfaa1c98280fc3439b"
+    },
+    {
+      "id": "apps.index.text.0066",
+      "page": "index.html",
+      "kind": "text",
+      "locator": "#craft-title/text()[1]",
+      "source": "Engineering in service of calm",
+      "sourceSha256": "b75cd8fb45d52c793bd8fcd107d101102992dc5c708ebed02bef2f8dd3281be5"
+    },
+    {
+      "id": "apps.index.text.0067",
+      "page": "index.html",
+      "kind": "text",
+      "locator": "#craft/p[1]/text()[1]",
+      "source": "Across the family, technical decisions are made in service of the person. Each app has its own architecture, guided by the same standards.",
+      "sourceSha256": "5498563802532dd598635f1688d679e0f3c0e50b77bab7b4d815804ff6897908"
+    },
+    {
+      "id": "apps.index.text.0068",
+      "page": "index.html",
+      "kind": "text",
+      "locator": "#craft/div[1]/article[1]/h4[1]/text()[1]",
+      "source": "Native by design",
+      "sourceSha256": "025f6a9359f5cf5490690f057d9dc62fbcf59ebb98970452e8f272348a43c1d4"
+    },
+    {
+      "id": "apps.index.text.0069",
+      "page": "index.html",
+      "kind": "text",
+      "locator": "#craft/div[1]/article[1]/p[1]/text()[1]",
+      "source": "We choose platform-native tools when they offer the clearest and most reliable experience. The product leads; the technology follows.",
+      "sourceSha256": "dd504d10aacdca60ddb8340919daaccb79fa303a2dca26550a0d4bfe38bdb0e6"
+    },
+    {
+      "id": "apps.index.text.0070",
+      "page": "index.html",
+      "kind": "text",
+      "locator": "#craft/div[1]/article[2]/h4[1]/text()[1]",
+      "source": "Private by structure",
+      "sourceSha256": "22fd7b42a3583a9e98aba945ffe50311b21ce5c603743236e0bbb725db5aebd9"
+    },
+    {
+      "id": "apps.index.text.0071",
+      "page": "index.html",
+      "kind": "text",
+      "locator": "#craft/div[1]/article[2]/p[1]/text()[1]",
+      "source": "We collect as little as possible, keep data on the device when the product allows it, and treat permissions, storage, encryption, and deletion as design decisions.",
+      "sourceSha256": "2bdcab9bb048d1d9d443c9e1ac01a6cf1b9cbc9ec8f83664d8baf1811e337495"
+    },
+    {
+      "id": "apps.index.text.0072",
+      "page": "index.html",
+      "kind": "text",
+      "locator": "#craft/div[1]/article[3]/h4[1]/text()[1]",
+      "source": "The person comes first",
+      "sourceSha256": "5b4f83fad5351a96eec969e4432b2a69d920d2e0d5742025d353b8f763e3934e"
+    },
+    {
+      "id": "apps.index.text.0073",
+      "page": "index.html",
+      "kind": "text",
+      "locator": "#craft/div[1]/article[3]/p[1]/text()[1]",
+      "source": "Accessibility is considered across complete tasks, with support for larger text, assistive technologies, reduced motion, strong contrast, and more than one way to understand or act.",
+      "sourceSha256": "45d48664447a3742bd2b2f263f069b3dfc47af669bb92dccf6163d5337941644"
+    },
+    {
+      "id": "apps.index.text.0074",
+      "page": "index.html",
+      "kind": "text",
+      "locator": "#craft/div[1]/article[4]/h4[1]/text()[1]",
+      "source": "Evidence, not confidence",
+      "sourceSha256": "1fab7bb5cb4d67127ed654d8c6afdbd8079748238acdaf8ff369d92e1931facd"
+    },
+    {
+      "id": "apps.index.text.0075",
+      "page": "index.html",
+      "kind": "text",
+      "locator": "#craft/div[1]/article[4]/p[1]/text()[1]",
+      "source": "Tests, device checks, and release gates support our claims. We distinguish what is planned, what is built, and what has been verified.",
+      "sourceSha256": "fe28db52503e80e6f9112d44f4e2584c2d2f13b92e1bb739bea02372fc432359"
+    },
+    {
+      "id": "apps.index.text.0076",
+      "page": "index.html",
+      "kind": "text",
+      "locator": "#craft/p[2]/text()[1]",
+      "source": "The result is meant to feel simple because the complexity has been carried carefully underneath.",
+      "sourceSha256": "c6ab85229e334e4a21de7f828211d60f8a871dee3581b8c664e7e37b3eeef256"
+    },
+    {
+      "id": "apps.index.text.0077",
+      "page": "index.html",
+      "kind": "text",
+      "locator": "/html[1]/body[1]/footer[1]/nav[1]/ul[1]/li[5]/a[1]/text()[1]",
+      "source": "Technical Craft",
+      "sourceSha256": "ed7b84a2eb484c5b73f39e114cd551a47e8e1b764b945ccfaa1c98280fc3439b"
     },
     {
       "id": "apps.index.attribute.0001",

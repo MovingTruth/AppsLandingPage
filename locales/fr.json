@@ -102,8 +102,8 @@
       "sourceSha256": "2dff5dd391d9f4785b7f629ad8fdd90d331d78bab31637823141541124a0931c"
     },
     "apps.index.text.0026": {
-      "value": "Bientôt disponible",
-      "sourceSha256": "4f7d64017689437e6d93f5724f3f797054f3935d98a13148025b616b8db8fb2c"
+      "value": "En développement",
+      "sourceSha256": "5259ae65614671c45dc0a4f34a05a2cd323dc9817543340d5459b67fda87d394"
     },
     "apps.index.text.0027": {
       "value": "Soleil, nombre, zodiaque et lune — une lecture renouvelée chaque jour.",
@@ -118,8 +118,8 @@
       "sourceSha256": "294859aa00c89b96ec7799b9d4cfae5171551df7de40adad7a08cc9018e14219"
     },
     "apps.index.text.0030": {
-      "value": "Bientôt disponible",
-      "sourceSha256": "4f7d64017689437e6d93f5724f3f797054f3935d98a13148025b616b8db8fb2c"
+      "value": "En développement",
+      "sourceSha256": "5259ae65614671c45dc0a4f34a05a2cd323dc9817543340d5459b67fda87d394"
     },
     "apps.index.text.0031": {
       "value": "Là où Moving Truth se tourne vers le monde, Inner Course se tourne vers l’intérieur.",
@@ -134,8 +134,8 @@
       "sourceSha256": "dcd2d7a65851cbbb61308ea91f0b09a3814c90cea972cd032999aacfb4e1d73a"
     },
     "apps.index.text.0034": {
-      "value": "Bientôt disponible",
-      "sourceSha256": "4f7d64017689437e6d93f5724f3f797054f3935d98a13148025b616b8db8fb2c"
+      "value": "En développement",
+      "sourceSha256": "5259ae65614671c45dc0a4f34a05a2cd323dc9817543340d5459b67fda87d394"
     },
     "apps.index.text.0035": {
       "value": "Quelque chose pour vos mains. De l’espace pour votre esprit.",
@@ -328,6 +328,62 @@
     "apps.index.text.0063": {
       "value": "Découvrir Inner Vault →",
       "sourceSha256": "1bcddf068f0404226c8804bebe35b2f41bed519d4861ab4616cb49f67d1279b1"
+    },
+    "apps.index.text.0064": {
+      "value": "Artisanat Technique",
+      "sourceSha256": "ed7b84a2eb484c5b73f39e114cd551a47e8e1b764b945ccfaa1c98280fc3439b"
+    },
+    "apps.index.text.0065": {
+      "value": "Artisanat Technique",
+      "sourceSha256": "ed7b84a2eb484c5b73f39e114cd551a47e8e1b764b945ccfaa1c98280fc3439b"
+    },
+    "apps.index.text.0066": {
+      "value": "L'ingénierie au service du calme",
+      "sourceSha256": "b75cd8fb45d52c793bd8fcd107d101102992dc5c708ebed02bef2f8dd3281be5"
+    },
+    "apps.index.text.0067": {
+      "value": "Dans toute la famille, les décisions techniques sont prises au service de la personne. Chaque app possède sa propre architecture, guidée par les mêmes exigences.",
+      "sourceSha256": "5498563802532dd598635f1688d679e0f3c0e50b77bab7b4d815804ff6897908"
+    },
+    "apps.index.text.0068": {
+      "value": "Natif par conception",
+      "sourceSha256": "025f6a9359f5cf5490690f057d9dc62fbcf59ebb98970452e8f272348a43c1d4"
+    },
+    "apps.index.text.0069": {
+      "value": "Nous choisissons des outils natifs de la plateforme lorsqu’ils offrent l’expérience la plus claire et la plus fiable. Le produit guide; la technologie suit.",
+      "sourceSha256": "dd504d10aacdca60ddb8340919daaccb79fa303a2dca26550a0d4bfe38bdb0e6"
+    },
+    "apps.index.text.0070": {
+      "value": "Privé par structure",
+      "sourceSha256": "22fd7b42a3583a9e98aba945ffe50311b21ce5c603743236e0bbb725db5aebd9"
+    },
+    "apps.index.text.0071": {
+      "value": "Nous recueillons le moins de données possible, les conservons sur l’appareil lorsque le produit le permet et considérons les autorisations, le stockage, le chiffrement et la suppression comme des décisions de conception.",
+      "sourceSha256": "2bdcab9bb048d1d9d443c9e1ac01a6cf1b9cbc9ec8f83664d8baf1811e337495"
+    },
+    "apps.index.text.0072": {
+      "value": "La personne d’abord",
+      "sourceSha256": "5b4f83fad5351a96eec969e4432b2a69d920d2e0d5742025d353b8f763e3934e"
+    },
+    "apps.index.text.0073": {
+      "value": "L’accessibilité est envisagée à travers des tâches complètes, avec la prise en charge du texte agrandi, des technologies d’assistance, de la réduction des animations, d’un contraste marqué et de plusieurs façons de comprendre ou d’agir.",
+      "sourceSha256": "45d48664447a3742bd2b2f263f069b3dfc47af669bb92dccf6163d5337941644"
+    },
+    "apps.index.text.0074": {
+      "value": "Des preuves, pas de la confiance",
+      "sourceSha256": "1fab7bb5cb4d67127ed654d8c6afdbd8079748238acdaf8ff369d92e1931facd"
+    },
+    "apps.index.text.0075": {
+      "value": "Les tests, les vérifications sur appareil et les critères de publication étayent nos affirmations. Nous distinguons ce qui est prévu, ce qui est construit et ce qui a été vérifié.",
+      "sourceSha256": "fe28db52503e80e6f9112d44f4e2584c2d2f13b92e1bb739bea02372fc432359"
+    },
+    "apps.index.text.0076": {
+      "value": "Le résultat se veut simple car la complexité a été soigneusement portée en dessous.",
+      "sourceSha256": "c6ab85229e334e4a21de7f828211d60f8a871dee3581b8c664e7e37b3eeef256"
+    },
+    "apps.index.text.0077": {
+      "value": "Artisanat Technique",
+      "sourceSha256": "ed7b84a2eb484c5b73f39e114cd551a47e8e1b764b945ccfaa1c98280fc3439b"
     }
   }
 }
