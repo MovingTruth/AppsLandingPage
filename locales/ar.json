@@ -384,6 +384,38 @@
     "apps.index.text.0077": {
       "value": "الحرفة التقنية",
       "sourceSha256": "ed7b84a2eb484c5b73f39e114cd551a47e8e1b764b945ccfaa1c98280fc3439b"
+    },
+    "apps.index.text.0078": {
+      "value": "قيد التطوير",
+      "sourceSha256": "5259ae65614671c45dc0a4f34a05a2cd323dc9817543340d5459b67fda87d394"
+    },
+    "apps.index.text.0079": {
+      "value": "مكان خاص للذاكرة والتأمل.",
+      "sourceSha256": "b325bee072dbdde2d1583b78c1b29fee261f759b3893d306d81a680e798b443c"
+    },
+    "apps.index.text.0080": {
+      "value": "صُمم ليحفظ ما يهمك بهدوء ووفق شروطك.",
+      "sourceSha256": "cc12256e6ea1d1e80ca49cb2d7ea5b0d35f363656f9b6fb705a521be6cd188dd"
+    },
+    "apps.index.text.0081": {
+      "value": "قيد التطوير",
+      "sourceSha256": "5259ae65614671c45dc0a4f34a05a2cd323dc9817543340d5459b67fda87d394"
+    },
+    "apps.index.text.0082": {
+      "value": "انظر إلى الإشارات قبل أن تثق بالرابط.",
+      "sourceSha256": "91a01e4804cf2583ba8c5cc585fe4790338469b6e588e957b3eee004e0259c30"
+    },
+    "apps.index.text.0083": {
+      "value": "افحص الرابط المريب قبل فتحه، بأدلة مدروسة ووضوح بشأن ما لا يزال مجهولاً وخطوات تالية أكثر أماناً.",
+      "sourceSha256": "ce0533a42332e262da29e1aa7e05d4f9e484a645299db4ddf817b2847928ef7c"
+    },
+    "apps.index.attribute.0017": {
+      "value": "Innerverse — أيقونة التطبيق",
+      "sourceSha256": "a28b6ea22c2c60243631bcc9b5520665c13b756964701c9dfc567950a1f9ffec"
+    },
+    "apps.index.attribute.0018": {
+      "value": "Inner Check — أيقونة التطبيق",
+      "sourceSha256": "d31eeff97b29a4c383256053f272b9a48ef4ea83f573e32b28e4a0178634d11f"
     }
   }
 }

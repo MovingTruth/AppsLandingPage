@@ -253,6 +253,52 @@
       ],
       "category": "shared-literal",
       "rationale": "Domain name shown as link text; identical in every language."
+    },
+    {
+      "id": "apps.index.exception.0012",
+      "page": "index.html",
+      "kind": "text",
+      "source": "Innerverse",
+      "locales": [
+        "fr",
+        "es",
+        "de",
+        "pt-BR",
+        "it",
+        "nl",
+        "hi",
+        "ar",
+        "zh-Hans",
+        "ja",
+        "ko",
+        "ru",
+        "th"
+      ],
+      "category": "shared-literal",
+      "rationale": "Product or company name; family rule keeps Moving Truth and app names unchanged in every language."
+    },
+    {
+      "id": "apps.index.exception.0013",
+      "page": "index.html",
+      "kind": "text",
+      "source": "Inner Check",
+      "locales": [
+        "fr",
+        "es",
+        "de",
+        "pt-BR",
+        "it",
+        "nl",
+        "hi",
+        "ar",
+        "zh-Hans",
+        "ja",
+        "ko",
+        "ru",
+        "th"
+      ],
+      "category": "shared-literal",
+      "rationale": "Product or company name; family rule keeps Moving Truth and app names unchanged in every language."
     }
   ]
 }

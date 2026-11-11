@@ -619,6 +619,54 @@
       "sourceSha256": "ed7b84a2eb484c5b73f39e114cd551a47e8e1b764b945ccfaa1c98280fc3439b"
     },
     {
+      "id": "apps.index.text.0078",
+      "page": "index.html",
+      "kind": "text",
+      "locator": "#apps/div[2]/article[1]/div[1]/span[1]/text()[1]",
+      "source": "In development",
+      "sourceSha256": "5259ae65614671c45dc0a4f34a05a2cd323dc9817543340d5459b67fda87d394"
+    },
+    {
+      "id": "apps.index.text.0079",
+      "page": "index.html",
+      "kind": "text",
+      "locator": "#apps/div[2]/article[1]/div[1]/p[1]/text()[1]",
+      "source": "A private place for memory and reflection.",
+      "sourceSha256": "b325bee072dbdde2d1583b78c1b29fee261f759b3893d306d81a680e798b443c"
+    },
+    {
+      "id": "apps.index.text.0080",
+      "page": "index.html",
+      "kind": "text",
+      "locator": "#apps/div[2]/article[1]/div[1]/p[2]/text()[1]",
+      "source": "Made to hold what matters, quietly and on your terms.",
+      "sourceSha256": "cc12256e6ea1d1e80ca49cb2d7ea5b0d35f363656f9b6fb705a521be6cd188dd"
+    },
+    {
+      "id": "apps.index.text.0081",
+      "page": "index.html",
+      "kind": "text",
+      "locator": "#apps/div[2]/article[2]/div[1]/span[1]/text()[1]",
+      "source": "In development",
+      "sourceSha256": "5259ae65614671c45dc0a4f34a05a2cd323dc9817543340d5459b67fda87d394"
+    },
+    {
+      "id": "apps.index.text.0082",
+      "page": "index.html",
+      "kind": "text",
+      "locator": "#apps/div[2]/article[2]/div[1]/p[1]/text()[1]",
+      "source": "See the signals before you trust the link.",
+      "sourceSha256": "91a01e4804cf2583ba8c5cc585fe4790338469b6e588e957b3eee004e0259c30"
+    },
+    {
+      "id": "apps.index.text.0083",
+      "page": "index.html",
+      "kind": "text",
+      "locator": "#apps/div[2]/article[2]/div[1]/p[2]/text()[1]",
+      "source": "Examine a suspicious link before opening it, with careful evidence, clear uncertainty, and safer next steps.",
+      "sourceSha256": "ce0533a42332e262da29e1aa7e05d4f9e484a645299db4ddf817b2847928ef7c"
+    },
+    {
       "id": "apps.index.attribute.0001",
       "page": "index.html",
       "kind": "attribute",
@@ -745,6 +793,22 @@
       "locator": "#apps/div[2]/a[6]/img[1]/@alt",
       "source": "Inner Vault app icon",
       "sourceSha256": "00cec89abe9c3be7cee9893e480dbd6d9d8f1795d10b44379014d5b3bd78819c"
+    },
+    {
+      "id": "apps.index.attribute.0017",
+      "page": "index.html",
+      "kind": "attribute",
+      "locator": "#apps/div[2]/article[1]/img[1]/@alt",
+      "source": "Innerverse app icon",
+      "sourceSha256": "a28b6ea22c2c60243631bcc9b5520665c13b756964701c9dfc567950a1f9ffec"
+    },
+    {
+      "id": "apps.index.attribute.0018",
+      "page": "index.html",
+      "kind": "attribute",
+      "locator": "#apps/div[2]/article[2]/img[1]/@alt",
+      "source": "Inner Check app icon",
+      "sourceSha256": "d31eeff97b29a4c383256053f272b9a48ef4ea83f573e32b28e4a0178634d11f"
     },
     {
       "id": "apps.index.script.0001",

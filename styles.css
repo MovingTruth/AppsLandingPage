@@ -97,6 +97,8 @@ img { max-width: 100%; }
 .app-card:last-child:nth-child(odd) { grid-column: 1 / -1; border-right: 0; padding-right: 2.2rem; }
 .app-card:last-child:nth-child(odd) .app-card__body { max-width: 720px; }
 .app-card:hover { color: inherit; background: linear-gradient(120deg, rgba(var(--card-rgb), .1), transparent 72%); transform: translateY(-2px); }
+.app-card--static { cursor: default; }
+.app-card--static:hover { background: transparent; transform: none; }
 .app-card__icon { width: 112px; height: 112px; border-radius: 25px; object-fit: cover; box-shadow: 0 10px 34px rgba(0,0,0,.46), 0 0 28px rgba(var(--card-rgb), .12); }
 .app-card__body { display: flex; flex-direction: column; align-items: flex-start; }
 .app-card__status { display: inline-flex; margin-bottom: .65rem; color: rgb(var(--card-rgb)); font-size: .68rem; font-weight: 800; letter-spacing: .11em; text-transform: uppercase; }
